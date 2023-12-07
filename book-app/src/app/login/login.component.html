@@ -1,0 +1,10 @@
+<div class="login-page">
+    <div class="form" [formGroup]="loginForm">
+      <form class="login-form">
+        <input formControlName="username" type="text" placeholder="username"/>
+        <input formControlName="password" type="password" placeholder="password"/>
+        <button>login</button>
+        <p class="message">Not registered? <a (click)="goToRegistration()">Create an account</a></p>
+      </form>
+    </div>
+  </div>
